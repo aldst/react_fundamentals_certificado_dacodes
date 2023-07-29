@@ -8,6 +8,49 @@
   background-color: #03067b;
 }
 
+.ant-card-cover {
+  background: #563ff0;
+  transition: background-color 0.3s ease;
+  border-radius: 15%;
+}
+
+.activeCard img {
+  opacity: 0.2;
+}
+
+.content-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+
+.content-overlay h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color:  white !important;
+  line-height: 1.2;
+}
+
+.content-overlay h4 {
+  font-size: 15px;
+  font-weight: lighter;
+  color:  white !important;
+  line-height: 1.2;
+}
+
+.content-overlay h5 {
+  font-size: 10px;
+  font-weight: bolder;
+  color:  white !important;
+  line-height: 1.2;
+}
 
 
 .ant-segmented {
@@ -64,6 +107,7 @@
 
 .ant-card {
   background: transparent !important;
+  height: fit-content;
 }
 
 .ant-card-bordered {

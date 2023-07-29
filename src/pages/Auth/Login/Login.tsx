@@ -15,7 +15,6 @@ const LoginComponent = () => {
   const { handleNavigateDashboard } = useLogin();
     
   const handleLoginButton = () => {
-    console.log(loginForm.validateFields)
     loginForm
       .validateFields()
       .then(() => {

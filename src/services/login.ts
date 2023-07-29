@@ -24,14 +24,6 @@ export const useLogin = () => {
 
         sessionStorage.setItem("token", response.data.guest_session_id);
 
-        // Obtenemos todos los keys almacenados en el sessionStorage
-        const sessionStorageKeys = Object.keys(sessionStorage);
-
-        // Recorremos los keys y obtenemos los valores correspondientes del sessionStorage
-        sessionStorageKeys.forEach((key) => {
-          console.log(sessionStorage.getItem(key));
-        });
-
         setTimeout(() => {
           navigate("/now_playing", {
             state: {
