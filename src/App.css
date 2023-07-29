@@ -1,0 +1,71 @@
+.texto_blanco{
+  color: rgb(255, 255, 255) !important; 
+}
+
+.content_style {
+  width:100vw;
+  height: max-content;
+  background-color: #03067b;
+}
+
+
+
+.ant-segmented {
+  background-color: transparent !important;
+}
+
+.ant-segmented-item {
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 20px !important;
+  color: #ffffff;
+  font-weight: 600;
+  
+}
+
+.ant-segmented-item .ant-segmented-item-selected {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.ant-segmented .ant-segmented-item-selected {
+  background-image: transparent !important;
+  background-color: #5141ea !important;
+  color: #ffffff;
+}
+
+.ant-segmented-item-selected {
+  background-image: none !important;
+  background-color: #563ff0 !important;
+}
+
+.ant-segmented-item:not(.ant-segmented-item-selected) {
+  background-image: linear-gradient(102.31deg, rgba(58, 227, 195, 0.61) 12.56%, rgba(78, 108, 228, 0.84358) 85.09%, #563FF0 99.05%);
+}
+
+.ant-pagination-item-link {
+  color: #ffffff !important;
+  background-color: #5141ea !important;
+  border-radius: 50% !important;
+}
+
+
+.ant-pagination-simple-pager input {
+  background-color: transparent !important;
+  border: transparent !important;
+  width: 30%;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.ant-card img{
+  border-radius: 15% !important;
+}
+
+.ant-card {
+  background: transparent !important;
+}
+
+.ant-card-bordered {
+  border: none !important;
+}

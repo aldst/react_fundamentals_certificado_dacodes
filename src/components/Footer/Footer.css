@@ -1,0 +1,14 @@
+.footer_style {
+  padding-top: 8%;
+  background-image: 
+    url('../../assets/fondo_footer.png'),
+    linear-gradient(to bottom, #03067b, #03067b,#97f0df, #97f0df);
+    
+  background-size: cover; 
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.footer_style .interlineado {
+  line-height: 1.8 !important;
+}
