@@ -57,7 +57,7 @@ const NowPlayingComponent = () => {
       <div 
         style={{
           display: 'grid',
-          gridTemplateColumns: `repeat(auto-fit, minmax(350px, 1.2fr))`,
+          gridTemplateColumns: `repeat(auto-fit, minmax(300px, 1.5fr))`,
           gridGap: '16px',
           margin: '0 auto',
         }}

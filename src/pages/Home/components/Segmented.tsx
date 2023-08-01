@@ -13,8 +13,8 @@ const SegmentedComponent  = ({ selectedSegmented ="now_playing" }) => {
   return (
     <>
       <Segmented 
-        block size='middle' 
-        defaultValue={"now_playing"}
+        block size='middle'
+        defaultValue={selectedSegmented}
         onChange={handleNavigate}
         options={[
           {
