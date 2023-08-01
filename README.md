@@ -10,12 +10,12 @@ Este proyecto de React es una aplicación web que muestra un listado de películ
 
 ### Características
 
-Listado de Películas Populares y Recientes: Mostrar una lista de películas populares y recientes obtenidas desde el API de TMDb, lo que permite a los usuarios descubrir las últimas películas y las más populares en el momento.
+- Listado de Películas Populares y Recientes: Mostrar una lista de películas populares y recientes obtenidas desde el API de TMDb, lo que permite a los usuarios descubrir las últimas películas y las más populares en el momento.
 
-Búsqueda de Películas: Permitir a los usuarios buscar películas por título para encontrar películas específicas que les interesen.
+- Búsqueda de Películas: Permitir a los usuarios buscar películas por título para encontrar películas específicas que les interesen.
 
-Detalles de Películas: Mostrar detalles detallados de una película seleccionada, incluyendo sinopsis, puntuación, género, fecha de lanzamiento y reparto.
+- Detalles de Películas: Mostrar detalles detallados de una película seleccionada, incluyendo sinopsis, puntuación, género, fecha de lanzamiento y reparto.
 
-Paginación de Resultados: Implementar una paginación para mostrar los resultados de las películas de manera ordenada y accesible para el usuario.
+- Paginación de Resultados: Implementar una paginación para mostrar los resultados de las películas de manera ordenada y accesible para el usuario.
 
-Valoración de Películas: Permitir a los usuarios valorar películas y mostrar las calificaciones promedio de las películas.
+- Valoración de Películas: Permitir a los usuarios valorar películas y mostrar las calificaciones promedio de las películas.
