@@ -19,7 +19,7 @@ const LoginComponent = () => {
       .validateFields()
       .then(() => {
         setLoginButtonDisable(false);
-      }).catch((error) => {
+      }).catch(() => {
         setLoginButtonDisable(true); 
       })
   }
