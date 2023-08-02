@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { getMovieDetail, getMovies } from '../../../services/movies';
 import { Movie, Movies } from '../../../types/Movie';
-import { Card, Pagination, Rate, Tooltip, Typography } from 'antd';
+import { Card, Pagination, Rate, Typography } from 'antd';
 
 import SegmentedComponent from '../components/Segmented';
 import Template from '../../../templates/Template';
