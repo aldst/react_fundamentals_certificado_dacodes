@@ -19,3 +19,7 @@ Este proyecto de React es una aplicación web que muestra un listado de películ
 - Paginación de Resultados: Implementar una paginación para mostrar los resultados de las películas de manera ordenada y accesible para el usuario.
 
 - Valoración de Películas: Permitir a los usuarios valorar películas y mostrar las calificaciones promedio de las películas.
+
+#### Url del Deploy
+
+https://react-fundamentals-certificado-dacodes-ls1c29i38-aldst.vercel.app/
