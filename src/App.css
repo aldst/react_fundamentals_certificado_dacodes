@@ -3,8 +3,6 @@
 }
 
 .content_style {
-  width:100vw;
-  height: max-content;
   background-color: #03067b;
 }
 
@@ -112,4 +110,14 @@
 
 .ant-card-bordered {
   border: none !important;
+}
+
+.content-overlay h4 {
+  max-height: 250px;
+  overflow: auto;
+}
+
+.ant-rate-star:not(.ant-rate-star-full) .ant-rate-star-second, .ant-rate-star:not(.ant-rate-star-full) .ant-rate-star-first svg{
+  color: grey !important;
+  border-color: white !important
 }

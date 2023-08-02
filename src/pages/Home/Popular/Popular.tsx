@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { getMovieDetail, getMovies } from '../../../services/movies';
 import { Movie, Movies } from '../../../types/Movie';
-import { Card, Pagination, Rate, Typography } from 'antd';
+import { Card, Pagination, Rate, Tooltip, Typography } from 'antd';
 
 import SegmentedComponent from '../components/Segmented';
 import Template from '../../../templates/Template';
@@ -75,7 +75,7 @@ const PopularComponent = () => {
                     <Title level={3}>{movieDetail.title}</Title>
                     <Title level={5}>{getYear(movieDetail.release_date)} . {getGenresName(movieDetail?.genres)} . {getMovieDuration(movieDetail?.runtime)}</Title>
                     <Title level={4}>{movieDetail.overview}</Title>
-                    <Rate disabled 
+                    <Rate disabled
                       style={{color: 'white', display: 'flex' , alignItems: 'center', justifyContent: 'center' }}
                       defaultValue={getRatedValue(movieDetail.vote_average)}
                       />

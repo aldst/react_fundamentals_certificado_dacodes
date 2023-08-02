@@ -8,9 +8,15 @@ label {
 
 input {
   background-color: #5141ea;
-  max-width: 40vW;
 }
 
-span {
-  max-width: 40vW;
+
+.form_padding {
+  padding-right: 0%;
+}
+
+@media (min-width: 768px) {
+  .form_padding {
+    padding-right: 50%;
+  }
 }

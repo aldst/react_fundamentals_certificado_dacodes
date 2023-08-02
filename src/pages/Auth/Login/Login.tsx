@@ -34,7 +34,8 @@ const LoginComponent = () => {
       <Form
         form={ loginForm }
         layout="vertical"
-        style={{ maxWidth: 600 }}
+        // style={{ maxWidth: 600 }}
+        className="form_padding"
         >
         <Form.Item label="Correo electrónico de DaCodes" name="email"
           rules={[
